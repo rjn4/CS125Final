@@ -10,14 +10,15 @@
 
     <TextView
         android:id="@+id/textBox"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:text="Click on a die to roll! :)"
+        android:layout_width="245dp"
+        android:layout_height="234dp"
+        android:text=" Click on a die to roll! :)"
+        android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051" />
+        app:layout_constraintVertical_bias="0.067" />
 
     <ImageButton
         android:id="@+id/imageButton"

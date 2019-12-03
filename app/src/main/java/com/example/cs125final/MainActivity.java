@@ -36,42 +36,42 @@ public class MainActivity extends AppCompatActivity {
         androidImageButtonDie6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView textBox = findViewById(R.id.textBox);
-                textBox.setText("6 Sided Die Roll: " +  (int)((Math.random() * 6) + 1));
+                textBox.setText("     6 Sided Die Roll: " +  (int)((Math.random() * 6) + 1));
             }
         });
         ImageButton androidImageButtonDie8 = (ImageButton) findViewById(R.id.d8);
         androidImageButtonDie8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView textBox = findViewById(R.id.textBox);
-                textBox.setText("8 Sided Die Roll: " +  (int)((Math.random() * 8) + 1));
+                textBox.setText("     8 Sided Die Roll: " +  (int)((Math.random() * 8) + 1));
             }
         });
         ImageButton androidImageButtonDie4 = (ImageButton) findViewById(R.id.d4);
         androidImageButtonDie4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView textBox = findViewById(R.id.textBox);
-                textBox.setText("4 Sided Die Roll: " +  (int)((Math.random() * 4) + 1));
+                textBox.setText("     4 Sided Die Roll: " +  (int)((Math.random() * 4) + 1));
             }
         });
         ImageButton androidImageButtonDie10 = (ImageButton) findViewById(R.id.d10);
         androidImageButtonDie10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView textBox = findViewById(R.id.textBox);
-                textBox.setText("10 Sided Die Roll: " +  (int)((Math.random() * 10) + 1));
+                textBox.setText("   10 Sided Die Roll: " +  (int)((Math.random() * 10) + 1));
             }
         });
         ImageButton androidImageButtonDie12 = (ImageButton) findViewById(R.id.d12);
         androidImageButtonDie12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView textBox = findViewById(R.id.textBox);
-                textBox.setText("12 Sided Die Roll: " +  (int)((Math.random() * 12) + 1));
+                textBox.setText("   12 Sided Die Roll: " +  (int)((Math.random() * 12) + 1));
             }
         });
         ImageButton androidImageButtonDie20 = (ImageButton) findViewById(R.id.d20);
         androidImageButtonDie20.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView textBox = findViewById(R.id.textBox);
-                textBox.setText("20 Sided Die Roll: " +  (int)((Math.random() * 20) + 1));
+                textBox.setText("   20 Sided Die Roll: " +  (int)((Math.random() * 20) + 1));
             }
         });
     }
