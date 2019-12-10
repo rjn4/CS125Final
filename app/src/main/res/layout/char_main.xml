@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Character Creator"
+        android:textSize="38dp" />
+
+    <Button
+        android:id="@+id/male_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male Firstname"
+        android:textSize="38dp"/>
+
+    <Button
+        android:id="@+id/female_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female Firstname"
+        android:textSize="38dp"/>
+
+    <Button
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surname"
+        android:textSize="38dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="            Pick an option!"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/textLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="           Select Surname"
+        android:textSize="38dp" />
+
+    <Button
+        android:id="@+id/returnFromChar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="~~Return to Menu~~"
+        android:textSize="34dp"/>
+
+</LinearLayout>

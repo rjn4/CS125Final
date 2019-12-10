@@ -14,6 +14,16 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+        Button click = findViewById(R.id.charButton);
+        click.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view1) {
+                Intent intent1 = new Intent(MenuActivity.this, CharActivity.class);
+                startActivity(intent1);
+                finish();
+            }
+        });
+
         Button button = findViewById(R.id.buttonDiceRoller);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

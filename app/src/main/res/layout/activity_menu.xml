@@ -15,14 +15,21 @@
             android:id="@+id/menuText"
             android:layout_width="match_parent"
             android:layout_height="76dp"
-            android:text="   Welcome to Dnd Helper"
-            android:textSize="38dp" />
+            android:text="   Welcome to DnD Helper"
+            android:textSize="35dp" />
 
         <Button
             android:id="@+id/buttonDiceRoller"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dice Roller"
+            android:textSize="38dp" />
+
+        <Button
+            android:id="@+id/charButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Character"
             android:textSize="38dp" />
 
     </LinearLayout>

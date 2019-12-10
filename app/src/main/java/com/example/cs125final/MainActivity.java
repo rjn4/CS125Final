@@ -1,5 +1,6 @@
 package com.example.cs125final;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,14 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         ImageButton androidImageButtonDie6 = (ImageButton) findViewById(R.id.imageButton);
         androidImageButtonDie6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -74,6 +69,16 @@ public class MainActivity extends AppCompatActivity {
                 textBox.setText("   20 Sided Die Roll: " +  (int)((Math.random() * 20) + 1));
             }
         });
+        Button returnDie = findViewById(R.id.returnFromDie);
+        returnDie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainActivity.this, MenuActivity.class);
+                startActivity(intent4);
+                finish();
+            }
+        });
+
     }
 
     @Override
