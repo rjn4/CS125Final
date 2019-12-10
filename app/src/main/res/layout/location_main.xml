@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/countryGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate a Country"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"/>
+
+    <Button
+        android:id="@+id/cityGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate a City"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"/>
+
+    <Button
+        android:id="@+id/streetGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate a Street"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"/>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="~~Return to Menu~~"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>

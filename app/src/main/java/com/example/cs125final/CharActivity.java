@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import
+import me.xdrop.jrand.*;
 
 
 public class CharActivity extends AppCompatActivity {
@@ -21,21 +21,21 @@ public class CharActivity extends AppCompatActivity {
         maleName.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView result = findViewById(R.id.result);
-                result.setText("            Matthew");
+                result.setText("               " + JRand.firstname().gender("m").gen());
             }
         });
         Button femaleName = (Button) findViewById(R.id.female_first);
         femaleName.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView result = findViewById(R.id.result);
-                result.setText("            Rachel");
+                result.setText("               " + JRand.firstname().gender("f").gen());
             }
         });
         Button surname = (Button) findViewById(R.id.surname);
         surname.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextView lastName = findViewById(R.id.textLastName);
-                lastName.setText("steve");
+                lastName.setText("               " + JRand.lastname().gen());
             }
         });
         Button charReturn = findViewById(R.id.returnFromChar);

@@ -23,7 +23,15 @@ public class MenuActivity extends AppCompatActivity {
                 finish();
             }
         });
-
+        Button stab = findViewById(R.id.location);
+        stab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View look) {
+                Intent doThis = new Intent(MenuActivity.this, LocActivity.class);
+                startActivity(doThis);
+                finish();
+            }
+        });
         Button button = findViewById(R.id.buttonDiceRoller);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
